@@ -17,25 +17,6 @@ Full catalog of saved skills is in [`.claude/skills/README.md`](.claude/skills/R
 
 ---
 
-# 🚦 START OF EVERY SESSION — read this block first
-
-Before doing anything else, open and walk the skills/agents decision tree at
-[`.claude/skills/_START HERE — Which Skill Do I Need.md`](.claude/skills/_START%20HERE%20%E2%80%94%20Which%20Skill%20Do%20I%20Need.md).
-
-The flow is:
-
-1. **Check for a matching subagent** in the Agents catalog in that file. If one fits the task → delegate to it.
-2. **Otherwise walk the skill tables** in that file. If a saved skill matches → open it and follow it.
-3. **If nothing matches** → do the work normally, then at the end decide whether the work created a reusable pattern worth saving:
-   - Reusable playbook Claude follows in a chat → follow [`.claude/skills/_HOW TO ADD A NEW SKILL.md`](.claude/skills/_HOW%20TO%20ADD%20A%20NEW%20SKILL.md)
-   - Specialist Claude delegates to, or a program that runs on its own → follow [`.claude/skills/_HOW TO ADD A NEW AGENT.md`](.claude/skills/_HOW%20TO%20ADD%20A%20NEW%20AGENT.md)
-
-Full catalog of saved skills is in [`.claude/skills/README.md`](.claude/skills/README.md).
-
-> Note: the canonical home of these skills on Evan's Mac is `~/Documents/Claude Skills/`. The copies in `.claude/skills/` here are mirrored so remote sessions on this repo have them too. If they drift, the local Mac copy wins for personal workflows; the repo copy wins for sessions started on this codebase.
-
----
-
 # CLAUDE.md — Project North Star
 
 > **Purpose:** Master build specification for the Project North Star platform. Read this entire document before writing any code. Every section is load-bearing.
